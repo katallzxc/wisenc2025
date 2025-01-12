@@ -1,14 +1,15 @@
 from machine import Pin
 from time import sleep
 
+# Set up LED as digital output
+LED_PIN = 25        # this pin controls the onboard LED!
+led = Pin(LED_PIN,Pin.OUT)
+
 # Set up digital input for PIR sensor
 SENSOR_PIN =          # enter pin number here!
 pir = Pin(SENSOR_PIN, Pin.IN)
 
 while True:
-    if pir.value():
-        print("motion detected!")
-    else:
-        print("no motion detected")
+    led.value(pir.value())
     sleep(0.1)
     
