@@ -4,10 +4,6 @@
 from machine import ADC, PWM, Pin
 import time
 
-# set PWM/ADC constants and defaults
-DUTY_MIN = 0
-DUTY_MAX = 65535
-
 # set up LED as PWM output
 LED_PIN = 25        # this pin controls the onboard LED!
 pwm = PWM(Pin(LED_PIN))
