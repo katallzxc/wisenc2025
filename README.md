@@ -1,6 +1,12 @@
 # wisenc2025
 Materials for the Mechatronics 101 workshop at the 2025 WISE National Conference. See the [workshop slides](https://docs.google.com/presentation/d/17NoBU563knMwBu_dEoikSRJojj2nbHyHuLxpcGSuef4/edit?usp=sharing) for activity details.
 
+## Module description
+
+Each activity module shows you how to use a sensor or actuator component. For each module, a box houses the circuit for the component (e.g., the photoresistor box shown below), and the power (Vin), ground (GND), and data (DATA) wires coming out of the box are used to connect the component circuit to the microcontroller board. The code used for each module is available in [the modules folder](/modules/).
+
+![Picture of plywood box that houses the circuit for the photoresistor, with the photoresistor mounted at the top of the box.](/figs/box_photo.jpg)
+
 ## List of available modules
 
 The following *actuator* activity modules are available:
