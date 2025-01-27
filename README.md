@@ -43,5 +43,9 @@ To avoid downloading the entire repository, you can also navigate to individual 
 
 To run an activity module:
 
-1. If you have not already done so, download the module script files.
-2. 
+1. Connect the wires from the module box to your microcontroller board in the appropriate pin locations (GND wire to a GND pin, Vin wire to the 3V3 (Vin) pin, and DATA wire to a GPIO pin).
+2. Plug the microcontroller into a USB-A port in your computer.
+3. If you have not already done so, download the module script files.
+4. Open a module script in Thonny.
+5. Change the pin number in the script to match the GPIO pin number to which you connected the DATA wire.
+6. Run the script.
